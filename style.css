@@ -1,0 +1,77 @@
+.bg-grey {
+  background-color: #212934 !important;
+  color: #cfd6e1 !important;
+}
+a {
+  text-decoration: none;
+}
+.text-success {
+  color: #59ab6e !important;
+}
+.bold {
+  font-weight: bold;
+}
+.shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+.nav-item{font-size: 18px !important;}
+nav{
+    position: sticky;
+    top:0;
+}
+
+@media (min-width: 1200px){
+.display-6 {
+    font-size: 2.2rem;
+}
+}
+
+button.btn.pt-0{
+  font-size: 20px;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+button.btn.pt-0{
+  padding-left:0 !important;
+}
+
+.categories{
+  font-size:22px;
+  font-weight: 400;
+  padding:0 10px;
+}
+
+.item-card{
+  margin:15px 10px;
+  width:15rem;
+}
+
+.card-body {
+  color: grey !important;
+  margin: 0;
+}
+
+.toast{
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+}
+
+@media screen and (max-width:425px){
+body{
+  zoom:0.5;
+}
+.item-card{
+  width:12rem !important;
+}
+}
+
+@media screen and (max-width:991px){
+  .item-card{
+    width:14rem;
+  }
+}
